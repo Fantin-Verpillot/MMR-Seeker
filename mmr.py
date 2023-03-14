@@ -22,6 +22,7 @@ async def on_message(message):
         json_data = response.json()
 
         if "error" in json_data:
+            print(json_data)
             result = f'Désolé, je n\'ai trouvé aucun joueur portant le pseudo **{name} (EUW)**.\n\n'
             result += ":bulb: Pour chercher un joueur spécifique, utilise le commande `/mmr {pseudo}`."
         else:
