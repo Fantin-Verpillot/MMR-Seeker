@@ -40,4 +40,4 @@ async def on_message(message):
     elif client.user in message.mentions:
         await message.channel.send(f'Hello {message.author.mention}, je suis bien là :blush:')
 
-client.run('MTA4NTAwNTc3MjYxNTg1NjI5OQ.GvFOf4.btWpgbUxfipY16Vw_pUTK8p6nbSJy3tzU9ssvg')
+client.run('DISCORD_BOT_TOKEN')
